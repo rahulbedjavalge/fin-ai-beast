@@ -1,0 +1,30 @@
+# Ignore Python virtual environment
+fin-ai/
+fin-ai/Lib/
+fin-ai/Scripts/
+fin-ai/Include/
+fin-ai/share/
+fin-ai/pyvenv.cfg
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore model and data artifacts
+models/
+*.pkl
+*.h5
+*.parquet
+
+# Ignore environment and config files
+.env
+*.env
+*.sqlite
+
+# Ignore system/IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
